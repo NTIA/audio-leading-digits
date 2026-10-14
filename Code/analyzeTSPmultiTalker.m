@@ -38,7 +38,7 @@ nOne = size(K,1); %number of examples of 1 talker
 N = ones(nOne ,1); %vector of 1's (for 1 talker)
 
 %We have 19 cases of more than one talker.  Figure out how many to take
-%from each case so that the number of examples of more-that-one talker
+%from each case so that the number of examples of more-than-one talker
 %roughly matches the number of examples of one talker.
 nMany = ceil(nOne/19); 
 
@@ -188,7 +188,7 @@ K = multiKLD(temp',Refs);
 nOne = size(K,1); %number of examples of 1 talker
 N = ones(nOne ,1); %vector of 1's (for 1 talker)
 
-%Extract all coases of nTalk talkers
+%Extract all cases of nTalk talkers
 temp = squeeze(LDD(:,nTalk,:)); 
 
 %Find KLD between the nTalk talker cases and the two references

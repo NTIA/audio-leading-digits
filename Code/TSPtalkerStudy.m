@@ -1,7 +1,10 @@
 %This code does an experiment that is not in the paper.
 %Many pairs of talkers in the TSP database cannot be distinguished using
 %just KLDs to Benford and Gauss, but talkers 21 (aka FK) and 22 (aka FL)
-%can be distinguished to some extent.
+%can be distinguished to some extent. The exact mechanism is presently
+%unclear and is a topic for future study.  The two talkers have different
+%spectral balance, so the first thing to investigate is if this plays into
+%the leading digit distributions by some means.
 %
 %September 21, 2026 by S. Voran at Institute for Telecommunication Sciences
 %in Boulder, Colorado, USA 

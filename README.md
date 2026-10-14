@@ -17,7 +17,7 @@ resulting publications would cite the paper mentioned above.
 * Modify these to experiment with other audio signals, bases, frame durations, etc.
 
 # Some Details
-* showTSPspeechLDD.m shows the leading digit distribution for TSP speech (included here) as per figure 1 in the paper.
+* showTSPspeechLDD.m shows the leading digit distribution for TSP speech (included here) as per Figure 1 in the paper.
 If one has licensed TIMIT speech, then one could extend to get results for that, or for any other dataset.
 * analyzeTSPmultiTalker.m reproduces the multi-talker TSP speech results found in figure 3 in the paper.
 This is organized into 3 cells.  The first creates and stores data. (The precomputed file is available, so running the first cell is not required.)
